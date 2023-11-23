@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'A-hlavne-menu.ui'
+# Form implementation generated from reading ui file 'ui/VL-hlasovanie-dvere.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -20,14 +20,17 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(30, 10, 93, 28))
         self.pushButton.setObjectName("pushButton")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(230, 120, 271, 51))
+        self.label.setObjectName("label")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(170, 170, 93, 28))
+        self.pushButton_2.setGeometry(QtCore.QRect(180, 220, 93, 28))
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(170, 230, 93, 28))
+        self.pushButton_3.setGeometry(QtCore.QRect(180, 260, 93, 28))
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(670, 10, 93, 28))
+        self.pushButton_4.setGeometry(QtCore.QRect(180, 300, 93, 28))
         self.pushButton_4.setObjectName("pushButton_4")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -41,9 +44,10 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "<- BACK"))
-        self.pushButton_2.setText(_translate("MainWindow", "HLASOVANIA"))
-        self.pushButton_3.setText(_translate("MainWindow", "VLASTNICI"))
-        self.pushButton_4.setText(_translate("MainWindow", "LOGOUT"))
+        self.label.setText(_translate("MainWindow", "Chcete namalovať dvere na ružovo?"))
+        self.pushButton_2.setText(_translate("MainWindow", "ANO"))
+        self.pushButton_3.setText(_translate("MainWindow", "NIE"))
+        self.pushButton_4.setText(_translate("MainWindow", "ZDRZAT SA"))
 
 
 if __name__ == "__main__":

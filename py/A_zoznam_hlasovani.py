@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'A-vytvor-vlastnika.ui'
+# Form implementation generated from reading ui file 'ui/A-zoznam-hlasovani.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -20,15 +20,18 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(30, 10, 93, 28))
         self.pushButton.setObjectName("pushButton")
-        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(670, 10, 93, 28))
-        self.pushButton_4.setObjectName("pushButton_4")
-        self.plainTextEdit = QtWidgets.QPlainTextEdit(self.centralwidget)
-        self.plainTextEdit.setGeometry(QtCore.QRect(150, 120, 291, 87))
-        self.plainTextEdit.setObjectName("plainTextEdit")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(150, 240, 201, 28))
+        self.pushButton_2.setGeometry(QtCore.QRect(90, 130, 541, 28))
         self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(90, 180, 541, 28))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(90, 230, 541, 28))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_5.setGeometry(QtCore.QRect(90, 280, 231, 28))
+        self.pushButton_5.setObjectName("pushButton_5")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -41,9 +44,10 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "<- BACK"))
-        self.pushButton_4.setText(_translate("MainWindow", "LOGOUT"))
-        self.plainTextEdit.setPlainText(_translate("MainWindow", "Zadajte meno vlastnika"))
-        self.pushButton_2.setText(_translate("MainWindow", "PRIDAT VLASTNIKA"))
+        self.pushButton_2.setText(_translate("MainWindow", "OTVORENÉ HLASOVANIE: Chcete namalovať dvere na ružovo?"))
+        self.pushButton_3.setText(_translate("MainWindow", "OTVORENÉ HLASOVANIE: Chcete kúriť aj cez leto (1.7.-31.8.2023)?"))
+        self.pushButton_4.setText(_translate("MainWindow", "ZATVORENÉ HLASOVANIE: Chcete zvýšit frekvenciu odnosu odpadu ? - VYSLEDOK: ANO"))
+        self.pushButton_5.setText(_translate("MainWindow", "VYTVOR NOVE HLASOVANIE"))
 
 
 if __name__ == "__main__":

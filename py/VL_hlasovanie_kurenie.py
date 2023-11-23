@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'A-vytvor-hlasovanie.ui'
+# Form implementation generated from reading ui file 'ui/VL-hlasovanie-kurenie.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -20,15 +20,12 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(30, 10, 93, 28))
         self.pushButton.setObjectName("pushButton")
-        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(670, 10, 93, 28))
-        self.pushButton_4.setObjectName("pushButton_4")
-        self.plainTextEdit = QtWidgets.QPlainTextEdit(self.centralwidget)
-        self.plainTextEdit.setGeometry(QtCore.QRect(150, 120, 291, 87))
-        self.plainTextEdit.setObjectName("plainTextEdit")
-        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(150, 240, 201, 28))
-        self.pushButton_2.setObjectName("pushButton_2")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(230, 120, 271, 51))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(220, 230, 271, 51))
+        self.label_2.setObjectName("label_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -41,9 +38,8 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "<- BACK"))
-        self.pushButton_4.setText(_translate("MainWindow", "LOGOUT"))
-        self.plainTextEdit.setPlainText(_translate("MainWindow", "Zadajte text otazky"))
-        self.pushButton_2.setText(_translate("MainWindow", "PRIDAT HLASOVANIE"))
+        self.label.setText(_translate("MainWindow", "Chcete kúriť aj cez leto (1.7.-31.8.2023)?"))
+        self.label_2.setText(_translate("MainWindow", "Hlasovali ste za: NIE"))
 
 
 if __name__ == "__main__":

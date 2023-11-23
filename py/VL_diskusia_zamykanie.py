@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'VL-diskusia-zamykanie.ui'
+# Form implementation generated from reading ui file 'ui/VL-diskusia-zamykanie.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
